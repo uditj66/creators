@@ -120,3 +120,16 @@
     @apply bg-background text-foreground;
   }
 }
+
+.gradient-text-primary {
+  @apply bg-linear-to-r from-white via-purple-200/55 to-red-300 bg-clip-text text-transparent;
+}
+.gradient-text-accent {
+  @apply bg-linear-to-r from-white to-gray-300 bg-clip-text text-transparent;
+}
+.card-glass {
+  @apply bg-gray-900/50  border-gray-800 hover:border-purple-500/50;
+}
+.text-portfolio-cyan {
+  @apply bg-cyan-500;
+}
