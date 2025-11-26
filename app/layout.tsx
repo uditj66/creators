@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { ConvexClientProvider } from "./ConvexClientProvider";
 import { ClerkProvider } from "@clerk/nextjs";
 import { shadesOfPurple } from "@clerk/themes";
-import Navbar from "@/components/buildComponents/navbar";
+import Navbar from "@/components/buildComponents/Navbar";
 import Footer from "@/components/buildComponents/Footer";
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",

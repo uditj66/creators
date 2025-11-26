@@ -1,5 +1,5 @@
 "use client";
-import MouseEffect from "@/components/buildComponents/mouseffect";
+import MouseEffect from "@/components/buildComponents/Mouseffect";
 import { Button } from "@/components/ui/button";
 import {
   Card,
